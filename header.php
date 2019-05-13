@@ -72,6 +72,15 @@ if (in_session_or_cookies($core_update_allowed)) {
 
 		load_css_files();
 	?>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-7955017297438953",
+			enable_page_level_ads: true
+		});
+	</script>
+
 </head>
 
 <body <?php echo add_body_class( $body_class ); ?>>
@@ -84,7 +93,7 @@ if (in_session_or_cookies($core_update_allowed)) {
 			</ul>
 
 			<div class="navbar-header">
-				<span class="navbar-brand"><a href="<?php echo SYSTEM_URI; ?>" target="_blank"><?php include('img/ps-icon.svg'); ?></a> <?php echo html_output(THIS_INSTALL_SET_TITLE); ?></span>
+				<span class="navbar-brand"><a href="<?php echo SYSTEM_URI; ?>" target="_blank"><?php include('img/dev.svg'); ?></a> <?php echo html_output(THIS_INSTALL_SET_TITLE); ?></span>
 			</div>
 
 			<ul class="nav pull-right nav_account">

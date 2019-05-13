@@ -126,11 +126,10 @@ $login_button_text = __('Log in','cftp_admin');
 						<input type="password" name="password" id="password" class="form-control" />
 					</div>
 
-					<div class="form-group">
+					<div class="form-group" hidden>
 						<label for="language"><?php _e('Language','cftp_admin'); ?></label>
 						<select name="language" id="language" class="form-control">
 							<?php
-								// scan for language files
 								$available_langs = get_available_languages();
 								foreach ($available_langs as $filename => $lang_name) {
 							?>

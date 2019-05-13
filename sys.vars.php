@@ -229,11 +229,11 @@ define('CLIENT_UPLOADS_TEMP_FOLDER', ROOT_DIR.'/upload/temp');
  * on the footer blocks.
  *
  */
-define('SYSTEM_URI','https://www.projectsend.org/');
-define('SYSTEM_URI_LABEL','ProjectSend on github');
-define('DONATIONS_URL','https://www.projectsend.org/donations/');
+define('SYSTEM_URI','https://www.agungfadhil.com/');
+define('SYSTEM_URI_LABEL','My Personal Website');
+define('DONATIONS_URL','https://www.agungfadhil.com');
 /** Previously cFTP */
-define('SYSTEM_NAME','ProjectSend');
+define('SYSTEM_NAME','Data_Mercu');
 
 define('LOGO_FOLDER',ROOT_DIR.'/img/custom/logo/');
 define('LOGO_THUMB_FOLDER',ROOT_DIR.'/img/custom/thumbs/');
